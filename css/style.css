@@ -9,8 +9,11 @@ body{
 }
 .header{
     flex-basis: 100px;
-    background-color: blue;
+    background-color: #1f2937;
     display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
 }
 .footer{
     background-color: beige;
@@ -19,4 +22,28 @@ body{
 }
 .content{
     display: flex;
+}
+.logo{
+    height: 100px;
+    width: auto;
+    border-radius: 50%;
+    background-color: #1f2937;
+}
+.social{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+}
+.name{
+    font-size: 32px;
+    font-weight: 900;
+    font-style: italic;
+    color: whitesmoke;
+}
+
+.right-elements{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:20px;
 }
