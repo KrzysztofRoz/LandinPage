@@ -1,0 +1,22 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header{
+    flex-basis: 100px;
+    background-color: blue;
+    display: flex;
+}
+.footer{
+    background-color: beige;
+    display: flex;
+    flex-basis: 100px;
+}
+.content{
+    display: flex;
+}
