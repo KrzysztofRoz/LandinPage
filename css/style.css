@@ -16,9 +16,11 @@ body{
     align-items: center;
 }
 .footer{
-    background-color: beige;
+    background-color: #babfc5c4;
     display: flex;
-    flex-basis: 100px;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 50px;
 }
 .content{
     display: flex;
