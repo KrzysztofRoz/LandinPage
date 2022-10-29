@@ -114,14 +114,14 @@ body{
     font-size: medium;
     font-weight: 600;
     margin: auto;
-    position:fixed;
+    position:relative;
     
 }
 /*img boarder */
 .gradient-border{
     margin: auto;
     display: flex;
-    position: absolute;
+    position: relative;
     height: 210px;
     width: 210px;
     background: linear-gradient(to right,rgb(0,210,255),rgb(58,123,213));
