@@ -8,6 +8,7 @@ body{
 }
 
 
+
 .top-header{
     flex-basis: 100px;
     background-color: #1f2937;
@@ -104,14 +105,32 @@ body{
 }
 .section img{
     width: 200px;
+    height: 200px;
     border-radius: 10%;
+
 }
 .caption{
     display:block;
     font-size: medium;
     font-weight: 600;
     margin: auto;
+    position:fixed;
+    
 }
+/*img boarder */
+.gradient-border{
+    margin: auto;
+    display: flex;
+    position: absolute;
+    height: 210px;
+    width: 210px;
+    background: linear-gradient(to right,rgb(0,210,255),rgb(58,123,213));
+    border-radius: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 .footer{
     background-color: #babfc5c4;
