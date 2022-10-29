@@ -129,6 +129,9 @@ body{
     align-items: center;
     justify-content: center;
 }
+.gradient-border:hover{
+    background: linear-gradient(to right,rgb(45, 179, 4),rgb(57, 245, 57));
+}
 
 
 
