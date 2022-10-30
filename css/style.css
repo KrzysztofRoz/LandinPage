@@ -57,7 +57,8 @@ body{
     padding: 10px;
     align-items: center;
     font-size: 40px;
-    font-family: 'Dancing Script', cursive;}
+    font-family: 'Dancing Script', cursive;
+}
 .header .text{
     align-self: flex-start;
     font-size: 28px;
@@ -162,6 +163,27 @@ body{
     background: linear-gradient(to right,rgb(45, 179, 4),rgb(57, 245, 57));
 }
 
+.quote{
+    background: linear-gradient(to left, rgb(28, 58, 99) ,rgb(84, 145, 236));
+    font-size: 42px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    flex-basis: 700px;
+    width: auto;
+    flex: 1;
+    padding: 5px;
+
+}
+.quote div{
+    width: 700px;
+    align-self: center;
+}
+.quote .author{
+    text-align: end;
+    align-self:center;
+}
 
 
 
