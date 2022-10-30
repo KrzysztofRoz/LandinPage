@@ -56,7 +56,8 @@ body{
     background-color: #1f2937;
     padding: 10px;
     align-items: center;
-}
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;}
 .text{
     font-size: 20px;
     font-weight: 600;
@@ -64,7 +65,7 @@ body{
     flex-wrap: wrap;
     align-items: center;
     flex-basis: 400px;
-    font-style: 'Brush Script MT', cursive;
+    font-style: 'Merienda';
 
 
 }
