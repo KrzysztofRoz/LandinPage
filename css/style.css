@@ -106,6 +106,10 @@ body{
     gap:10px;
     flex:1;
 }
+.main h1{
+    align-self: center;
+    font-family: 'Brush Script MT', cursive;
+}
 .section-links{
     display: flex;
     flex-direction: row;
@@ -157,6 +161,8 @@ body{
 .gradient-border:hover{
     background: linear-gradient(to right,rgb(45, 179, 4),rgb(57, 245, 57));
 }
+
+
 
 
 
