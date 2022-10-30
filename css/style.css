@@ -1,6 +1,7 @@
 body{
     height: 100vh;
-    margin: 0;
+    max-width: 1200px;
+    margin: auto;
     padding: 0;
     display:flex;
     flex-direction: column;
@@ -134,8 +135,13 @@ body{
 .section img{
     width: 200px;
     height: 200px;
+    transition: width height 0.5s linear;
     border-radius: 10%;
 
+}
+.section img:hover{
+width:180px;
+height: 180px;
 }
 .caption{
     display:block;
