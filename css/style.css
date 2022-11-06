@@ -207,6 +207,18 @@ height: 180px;
     font-size: 16px;
     font-weight: bold;
 }
+.signup{
+    border:solid 2px whitesmoke;
+    background-color: inherit;
+    padding-right: 20px;
+    padding-left:  20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    color:whitesmoke;
+    font-weight: bolder;
+    font-size: 16px;
+}
 
 
 
