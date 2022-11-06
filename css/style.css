@@ -108,6 +108,7 @@ body{
     gap:10px;
     flex:1;
     align-content: space-around;
+    justify-content: center;
 }
 .main h1{
     align-self: center;
@@ -193,6 +194,20 @@ height: 180px;
     text-align: end;
     align-self:center;
 }
+.banner{
+    width:600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:auto;
+    background: linear-gradient(to left,rgb(0,210,255),rgb(58,123,213));
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
 
 
 
