@@ -194,6 +194,11 @@ height: 180px;
     text-align: end;
     align-self:center;
 }
+.banner.banner-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .banner{
     width:600px;
     display: flex;
@@ -206,6 +211,7 @@ height: 180px;
     margin-bottom: 20px;
     font-size: 16px;
     font-weight: bold;
+    color:whitesmoke;
 }
 .signup{
     border:solid 2px whitesmoke;
