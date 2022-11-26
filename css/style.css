@@ -6,6 +6,7 @@ body{
     display:flex;
     flex-direction: column;
     justify-content: space-between;
+    background-image: url(../images/images/background-wool.jpeg);
 }
 
 
@@ -100,11 +101,12 @@ body{
     border-radius: 5%;
     
 }
+/* background photo from: Photo by Anete Lusina from Pexels: https://www.pexels.com/photo/textured-background-of-white-wicker-fabric-6331028/ */
 .main{
     display: flex;
     flex-direction: column;
     padding: 5px;
-    background: inherit;
+    background-image: url(../images/images/wool-anete.jpg);
     gap:10px;
     flex:1;
     align-content: space-around;
